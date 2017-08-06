@@ -1,0 +1,50 @@
+body {
+    background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000046, #1cb5e0); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000046, #1cb5e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+td {
+  width: 10px;
+  height: 10px;
+  border: solid thin;
+  border-color: #cccccc;
+}
+
+.App {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.board {
+  margin-bottom: 30px;
+  background: white;
+}
+
+.alive {
+  background-color: black;
+}
+
+.gen-count {
+  color: white;
+}
+
+.btn {
+  margin: 5px;
+}
+
+#play {
+  background-color: #28abed;
+}
+
+#stop {
+  background-color: #ea7c1c;
+}
+
+#clear {
+  background-color: #d12f23;
+}
+
+#new {
+  background-color: #17820e;
+}
